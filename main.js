@@ -4,7 +4,7 @@
     
     function getData() {
 
-        var url = 'http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=1da75a7af95ee9f123abf404263a4d30&format=json&limit=12';
+        var url = 'https://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=1da75a7af95ee9f123abf404263a4d30&format=json&limit=12';
         var request = new XMLHttpRequest();
         request.open('GET', url, true);
         
